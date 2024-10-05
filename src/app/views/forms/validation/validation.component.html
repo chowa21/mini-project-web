@@ -1,0 +1,149 @@
+<c-container>
+  <c-row>
+    <c-col>
+
+
+      <div class="object-detections" (click)="go.ObjectDetections()">
+
+        <c-card class="mb-3" [ngStyle]="{'max-width.px': 540}">
+          <c-row class="g-0">
+            <c-col [md]="4">
+              <img [cCardImg] src="./assets/Detected-with-YOLO--Schreibtisch-mit-Objekten.jpg">
+            </c-col>
+            <c-card-body cCol [md]="8">
+              <h5 cCardTitle>Object Detection</h5>
+              <p cCardText>
+                MediaPipe Object Detection คือโซลูชันสำหรับการตรวจจับวัตถุในภาพหรือวิดีโอแบบเรียลไทม์
+                ที่สามารถระบุตำแหน่งและจำแนกประเภทวัตถุได้ เหมาะสำหรับงานประมวลผลภาพ
+              </p>
+              <p cCardText>
+                <small class="text-medium-emphasis">last updated October 5, 2024</small>
+              </p>
+            </c-card-body>
+          </c-row>
+        </c-card>
+
+      </div>
+    </c-col>
+    <c-col>
+      <div class="object-detections" (click)="go.ImageSegmentation()">
+
+        <c-card class="mb-3" [ngStyle]="{'max-width.px': 540}">
+          <c-row class="g-0">
+            <c-col [md]="4">
+              <img [cCardImg] src="./assets/imageSegment.png">
+            </c-col>
+            <c-card-body cCol [md]="8">
+              <h5 cCardTitle>Image Segmentation</h5>
+              <p cCardText>
+                Image Segmentation คือการแบ่งภาพออกเป็นส่วนต่างๆ เพื่อแยกวัตถุหรือพื้นที่ตามพิกเซล
+                ช่วยให้เข้าใจและวิเคราะห์ภาพได้ละเอียดมากขึ้นในงานประมวลผลภาพ
+              </p>
+              <p cCardText>
+                <small class="text-medium-emphasis">last updated October 5, 2024</small>
+              </p>
+            </c-card-body>
+          </c-row>
+        </c-card>
+
+      </div>
+
+    </c-col>
+  </c-row>
+  <c-row>
+    <c-col>
+      <div class="object-detections" (click)="go.InteractiveSegmentation()">
+
+        <c-card class="mb-3" [ngStyle]="{'max-width.px': 540}">
+          <c-row class="g-0">
+            <c-col [md]="4">
+              <img [cCardImg] src="./assets/Interactivesegmentation.jpg">
+            </c-col>
+            <c-card-body cCol [md]="8">
+              <h5 cCardTitle>Interactive Segmentation </h5>
+              <p cCardText>
+                Interactive Segmentation คือการแบ่งภาพโดยที่ผู้ใช้สามารถโต้ตอบและควบคุมกระบวนการแบ่งส่วน ช่วยให้การระบุวัตถุหรือพื้นที่ในภาพมีความแม่นยำและตรงตามความต้องการของผู้ใช้มากขึ้น
+              </p>
+              <p cCardText>
+                <small class="text-medium-emphasis">last updated October 5, 2024</small>
+              </p>
+            </c-card-body>
+          </c-row>
+        </c-card>
+
+      </div>
+    </c-col>
+    <c-col>
+      <div class="object-detections" (click)="go.HandLandmarksDetection()">
+
+        <c-card class="mb-3" [ngStyle]="{'max-width.px': 540}">
+          <c-row class="g-0">
+            <c-col [md]="4">
+              <img [cCardImg] src="./assets/handland.jpg">
+            </c-col>
+            <c-card-body cCol [md]="8">
+              <h5 cCardTitle>HandLandmarker</h5>
+              <p cCardText>
+                การตรวจจับและระบุตำแหน่งข้อต่อต่าง ๆ ของมือ เช่น นิ้วและข้อมือ ในภาพหรือวิดีโอแบบเรียลไทม์ เหมาะสำหรับการใช้งานในแอปที่ต้องการการควบคุมด้วยท่าทางมือ เช่น AR, VR
+              </p>
+              <p cCardText>
+                <small class="text-medium-emphasis">last updated October 5, 2024</small>
+              </p>
+            </c-card-body>
+          </c-row>
+        </c-card>
+
+      </div>
+    </c-col>
+  </c-row>
+
+  <c-row>
+    <c-col>
+
+      <div class="object-detections" (click)="go.PoseDetection()">
+
+        <c-card class="mb-3" [ngStyle]="{'max-width.px': 540}">
+          <c-row class="g-0">
+            <c-col [md]="4">
+              <img [cCardImg] src="./assets/post.jpg">
+            </c-col>
+            <c-card-body cCol [md]="8">
+              <h5 cCardTitle>Pose Detection</h5>
+              <p cCardText>
+                 คือการตรวจจับและระบุตำแหน่งของข้อต่อต่าง ๆ บนร่างกายมนุษย์ เช่น หัว ไหล่ ข้อศอก และเข่า ในภาพหรือวิดีโอแบบเรียลไทม์ ใช้เพื่อวิเคราะห์ท่าทางการเคลื่อนไหวในงานต่าง ๆ เช่น ฟิตเนส การเล่นเกม หรือการแพทย์
+              </p>
+              <p cCardText>
+                <small class="text-medium-emphasis">last updated October 5, 2024</small>
+              </p>
+            </c-card-body>
+          </c-row>
+        </c-card>
+
+      </div>
+    </c-col>
+    <c-col>
+      <div class="object-detections" (click)="go.aboutUs()">
+
+        <c-card class="mb-3" [ngStyle]="{'max-width.px': 540}">
+          <c-row class="g-0">
+            <c-col [md]="4">
+              <img [cCardImg] src="./assets/member.png">
+            </c-col>
+            <c-card-body cCol [md]="8">
+              <h5 cCardTitle>ABOUT US</h5>
+              <p cCardText>
+                 สมาชิกในกลุ่ม
+              </p>
+              <p cCardText>
+                <small class="text-medium-emphasis">last updated October 5, 2024</small>
+              </p>
+            </c-card-body>
+          </c-row>
+        </c-card>
+
+      </div>
+    </c-col>
+  </c-row>
+
+
+</c-container>
